@@ -3,3 +3,4 @@
 /ThumbGenJs/node_modules
 /ThumbGenPy/__pycache__
 /ThumbGenPy/utils/__pycache__
+*.bak

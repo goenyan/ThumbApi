@@ -31,7 +31,7 @@ async function increaseViews(headers) {
             return
         }
 
-        const url = 'https://statsapi-production-871f.up.railway.app/increaseViews'
+        const url = 'https://statsapi-production-cf23.up.railway.app/increaseViews'
         await fetch(url, { headers: { 'Referer': website } })
 
         CACHE[website] = 0
